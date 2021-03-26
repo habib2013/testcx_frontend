@@ -1,0 +1,232 @@
+*{
+	--main-color: #E7393F !important;
+}
+
+@font-face{
+	/*font-family: "Nocturnal Demo";
+	font-style: italic;
+	font-weight: normal;
+	src: url("../font/Nocturnal Demo.otf");
+*/
+	font-family: "Product Sans Regular";
+	font-style: italic;
+	font-weight: normal;
+	src: url("../font/Product Sans Regular.ttf");
+}
+
+@font-face{
+	font-family: "Nocturnal Demo";
+	font-style: italic;
+	font-weight: normal;
+	src: url("../font/Nocturnal Demo.otf");
+}
+
+
+.banner-content{
+	display: flex;
+	justify-content: space-between !important;
+	align-items: center;
+}
+
+.banner-content .img-right{
+	width: 500px;
+	height: 100%;
+	overflow: hidden;
+}
+
+.banner-content .img-right img{
+	width: 75%;
+	height: auto;
+}
+
+.app-links{
+	display: flex;
+	align-items: center;
+}
+
+.app-links a{
+	padding: 0;
+}
+
+
+.billboard h1{
+	display: inline;
+}
+
+.billboard p{
+
+
+	margin-top: -50px;
+}
+
+@media(max-width: 576px){
+	.img-right{
+		display: none;
+	}
+
+	.billboard span{
+		margin-top: -30px;
+	}
+}
+
+p {
+	font-family: "Product Sans Regular" !important;
+}
+
+h4 {
+	font-family: "Product Sans Regular" !important;
+}
+
+h2 {
+	font-family: "Product Sans Regular" !important;
+}
+
+h5 {
+	font-family: "Product Sans Regular" !important;
+}
+
+
+a {
+	font-family: "Product Sans Regular" !important;
+}
+
+label {
+	font-family: "Product Sans Regular" !important;
+}
+
+/* ICONS */
+.icons{
+	width: 50px;
+	height: 50px;
+}
+
+.icons img{
+	width: 100%;
+	height: auto;
+	margin: 0px auto;
+}
+
+/* CArd panel*/
+/*.features-wrapper{
+	flex
+}*/
+.features{
+	max-width: 90%;
+	margin: auto;
+	padding: 30px 0px;
+}
+
+
+/*.features .features-wrapper{
+	margin-top: 100px;
+}*/
+
+.features-content{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.features-content > div{
+	margin-top: 40px;
+}
+.features-content .features-image{
+	max-width: 450px;
+	max-height: 400px;
+}
+
+.features-content .features-text{
+	color: #fff;
+	background: #222222;
+	padding: 40px;
+	border-radius: 10px;
+	width: 300px;
+	height: 300px;
+}
+
+.features-content .features-text ul{
+	list-style-type: none;
+}
+
+/* Form page */
+.form form{
+	max-width: 40vw;
+	margin: 0px auto;
+	padding: 10px;
+	overflow: hidden;
+}
+
+
+.form form input{
+	border: none;
+
+}
+
+.form form input[type='text'],
+.form form input[type='email'],
+.form form select
+{
+	width: 100%;
+	padding: 15px;
+	border-radius: 10px;
+	color: #222222;
+}
+
+.form form input[type='submit']{
+	background-color: var(--main-color);
+	padding: 10px;
+	color: #fff;
+	border-radius: 5px;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.form form label{
+	color: #fff;
+	margin: 15px 0px;
+}
+
+
+.form form select option{
+	padding: 10px;
+}
+
+.form form input[type='text']:focus,
+.form form select:focus,
+.form form input[type='email']
+{
+	outline: none;
+}
+
+.form form > div{
+	margin: 15px 0px;
+}
+.form form .row{
+	display: flex !important;
+	justify-content: space-between;
+}
+
+.form form .row>div{
+	margin: 0 5px;
+}
+
+
+@media(max-width: 750px){
+	.form form .row{
+		flex-direction: column;
+	}
+}
+
+/* confrim page */
+.circle{
+	width: 50px;
+	height: 50px;
+	padding: 100px;
+	border-radius: 50%;
+	background-color: #bbb;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
